@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.7" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <interface id="1" language="java" name="org.springframework.beans.factory.BeanFactory" project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/factory/BeanFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="148" width="169" x="2075" y="1115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="org.springframework.beans.factory.access.SingletonBeanFactoryLocator" 
+    project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/factory/access/SingletonBeanFactoryLocator.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="112" width="258" x="2812" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" 
+    name="org.springframework.beans.factory.access.SingletonBeanFactoryLocator.BeanFactoryGroup" project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/factory/access/SingletonBeanFactoryLocator.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="58" width="189" x="2524" y="585"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="org.springframework.beans.MutablePropertyValues" project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/MutablePropertyValues.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="292" width="254" x="857" y="585"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="org.springframework.beans.factory.config.ConstructorArgumentValues" 
+    project="spring-1.0" file="/spring-1.0/src/org/springframework/beans/factory/config/ConstructorArgumentValues.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="274" width="263" x="410" y="1115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="org.springframework.beans.factory.support.AbstractBeanDefinitionReader" 
+    project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/factory/support/AbstractBeanDefinitionReader.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="112" width="223" x="1412" y="1429"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="org.springframework.beans.factory.access.BeanFactoryBootstrap" 
+    project="spring-1.0" file="/spring-1.0/src/org/springframework/beans/factory/access/BeanFactoryBootstrap.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="94" width="202" x="2075" y="585"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="org.springframework.beans.factory.config.MapFactoryBean" project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/factory/config/MapFactoryBean.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="202" width="185" x="3593" y="1115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="9" language="java" name="org.springframework.beans.factory.HierarchicalBeanFactory" 
+    project="spring-1.0" file="/spring-1.0/src/org/springframework/beans/factory/HierarchicalBeanFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="76" width="207" x="2650" y="1429"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="10" language="java" name="org.springframework.beans.factory.config.MethodInvokingFactoryBean" 
+    project="spring-1.0" file="/spring-1.0/src/org/springframework/beans/factory/config/MethodInvokingFactoryBean.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="166" width="185" x="3368" y="1115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="11" language="java" name="org.springframework.beans.support.SortDefinition" project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/support/SortDefinition.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="112" width="157" x="2327" y="585"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="12" language="java" name="org.springframework.beans.factory.config.PropertyOverrideConfigurer" 
+    project="spring-1.0" file="/spring-1.0/src/org/springframework/beans/factory/config/PropertyOverrideConfigurer.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="76" width="185" x="4339" y="585"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="13" language="java" name="org.springframework.beans.factory.config.AutowireCapableBeanFactory" 
+    project="spring-1.0" file="/spring-1.0/src/org/springframework/beans/factory/config/AutowireCapableBeanFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="130" width="345" x="1962" y="1429"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="14" language="java" name="org.springframework.beans.factory.support.RootBeanDefinition" 
+    project="spring-1.0" file="/spring-1.0/src/org/springframework/beans/factory/support/RootBeanDefinition.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="490" width="407" x="410" y="585"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="15" language="java" name="org.springframework.beans.PropertyValues" project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/PropertyValues.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="130" width="254" x="857" y="1115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="16" language="java" name="org.springframework.beans.support.PagedListSourceProvider" 
+    project="spring-1.0" file="/spring-1.0/src/org/springframework/beans/support/PagedListSourceProvider.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="76" width="170" x="1582" y="1115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="17" language="java" name="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer" 
+    project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/factory/config/PropertyPlaceholderConfigurer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="166" width="265" x="4564" y="585"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="org.springframework.beans.factory.config.ConstructorArgumentValues.ValueHolder" 
+    project="spring-1.0" file="/spring-1.0/src/org/springframework/beans/factory/config/ConstructorArgumentValues.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="112" width="185" x="410" y="1429"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="19" language="java" name="org.springframework.beans.factory.config.ConfigurableBeanFactory" 
+    project="spring-1.0" file="/spring-1.0/src/org/springframework/beans/factory/config/ConfigurableBeanFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="202" width="267" x="2650" y="1743"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="20" language="java" name="org.springframework.beans.factory.config.PropertiesFactoryBean" 
+    project="spring-1.0" file="/spring-1.0/src/org/springframework/beans/factory/config/PropertiesFactoryBean.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="256" width="256" x="4268" y="1115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="org.springframework.beans.factory.support.PropertiesBeanDefinitionReader" 
+    project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/factory/support/PropertiesBeanDefinitionReader.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="238" width="296" x="1412" y="1743"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="org.springframework.beans.support.PropertyComparator" project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/support/PropertyComparator.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="130" width="195" x="2577" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="org.springframework.beans.factory.config.CommonsLogFactoryBean" 
+    project="spring-1.0" file="/spring-1.0/src/org/springframework/beans/factory/config/CommonsLogFactoryBean.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="148" width="185" x="3143" y="1115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="org.springframework.beans.factory.support.DefaultListableBeanFactory" 
+    project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/factory/support/DefaultListableBeanFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="274" width="263" x="2347" y="1429"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="org.springframework.beans.factory.config.SetFactoryBean" project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/factory/config/SetFactoryBean.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="202" width="185" x="3818" y="1115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="26" language="java" name="org.springframework.beans.factory.config.BeanFactoryPostProcessor" 
+    project="spring-1.0" file="/spring-1.0/src/org/springframework/beans/factory/config/BeanFactoryPostProcessor.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="76" width="340" x="3959" y="585"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="27" language="java" name="org.springframework.beans.factory.InitializingBean" project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/factory/InitializingBean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="76" width="157" x="3942" y="1429"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="28" language="java" name="org.springframework.beans.factory.support.AbstractBeanFactory" 
+    project="spring-1.0" file="/spring-1.0/src/org/springframework/beans/factory/support/AbstractBeanFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="454" width="317" x="2753" y="585"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="org.springframework.beans.support.PagedListHolder" project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/support/PagedListHolder.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="508" width="164" x="2085" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="org.springframework.beans.factory.support.StaticListableBeanFactory" 
+    project="spring-1.0" file="/spring-1.0/src/org/springframework/beans/factory/support/StaticListableBeanFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="274" width="247" x="1295" y="1115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="31" language="java" name="org.springframework.beans.BeanWrapper" project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/BeanWrapper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="346" width="286" x="3633" y="585"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="32" language="java" name="org.springframework.beans.factory.config.PropertyResourceConfigurer" 
+    project="spring-1.0" file="/spring-1.0/src/org/springframework/beans/factory/config/PropertyResourceConfigurer.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="202" width="340" x="4339" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="org.springframework.beans.factory.access.DefaultBeanFactoryReference" 
+    project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/factory/access/DefaultBeanFactoryReference.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="112" width="243" x="1792" y="585"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="org.springframework.beans.CachedIntrospectionResults" project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/CachedIntrospectionResults.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="58" width="185" x="3408" y="585"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="org.springframework.beans.support.MutableSortDefinition" project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/support/MutableSortDefinition.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="310" width="248" x="2289" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="36" language="java" name="org.springframework.beans.factory.support.BeanDefinitionRegistry" 
+    project="spring-1.0" file="/spring-1.0/src/org/springframework/beans/factory/support/BeanDefinitionRegistry.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="184" width="263" x="2002" y="1743"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="37" language="java" name="org.springframework.beans.factory.access.JndiBeanFactoryLocator" 
+    project="spring-1.0" file="/spring-1.0/src/org/springframework/beans/factory/access/JndiBeanFactoryLocator.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="94" width="258" x="3110" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="org.springframework.beans.factory.support.AbstractBeanDefinition" 
+    project="spring-1.0" file="/spring-1.0/src/org/springframework/beans/factory/support/AbstractBeanDefinition.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="220" width="326" x="616" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="39" language="java" name="org.springframework.beans.factory.config.BeanDefinition" project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/factory/config/BeanDefinition.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="112" width="326" x="44" y="585"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="40" language="java" name="org.springframework.beans.factory.access.BeanFactoryLocator" 
+    project="spring-1.0" file="/spring-1.0/src/org/springframework/beans/factory/access/BeanFactoryLocator.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="76" width="258" x="3110" y="585"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="41" language="java" name="org.springframework.beans.factory.ListableBeanFactory" project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/factory/ListableBeanFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="148" width="247" x="1675" y="1429"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="42" language="java" name="org.springframework.beans.support.RefreshablePagedListHolder" 
+    project="spring-1.0" file="/spring-1.0/src/org/springframework/beans/support/RefreshablePagedListHolder.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="220" width="293" x="1459" y="585"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="43" language="java" name="org.springframework.beans.factory.config.ConfigurableListableBeanFactory" 
+    project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/factory/config/ConfigurableListableBeanFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="76" width="212" x="1962" y="2021"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="44" language="java" name="org.springframework.beans.factory.config.ResourceFactoryBean" 
+    project="spring-1.0" file="/spring-1.0/src/org/springframework/beans/factory/config/ResourceFactoryBean.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="148" width="185" x="2918" y="1115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="45" language="java" name="org.springframework.beans.factory.FactoryBean" project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/factory/FactoryBean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="112" width="157" x="3593" y="1429"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="46" language="java" name="org.springframework.beans.factory.access.BeanFactoryReference" 
+    project="spring-1.0" file="/spring-1.0/src/org/springframework/beans/factory/access/BeanFactoryReference.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="94" width="189" x="1792" y="1115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="47" language="java" name="org.springframework.beans.factory.support.ChildBeanDefinition" 
+    project="spring-1.0" file="/spring-1.0/src/org/springframework/beans/factory/support/ChildBeanDefinition.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="130" width="268" x="1151" y="585"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="48" language="java" name="org.springframework.beans.factory.config.ListFactoryBean" project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/factory/config/ListFactoryBean.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="202" width="185" x="4043" y="1115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="49" language="java" name="org.springframework.beans.BeanWrapperImpl" project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/BeanWrapperImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="454" width="286" x="3520" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="50" language="java" name="org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer" 
+    project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/factory/config/PreferencesPlaceholderConfigurer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="130" width="223" x="4564" y="1115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="51" language="java" name="org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory" 
+    project="spring-1.0" 
+    file="/spring-1.0/src/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="184" width="345" x="2347" y="1115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="52" language="java" name="org.springframework.beans.factory.config.CustomEditorConfigurer" 
+    project="spring-1.0" file="/spring-1.0/src/org/springframework/beans/factory/config/CustomEditorConfigurer.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="148" width="340" x="3959" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="53">    
+    <end type="SOURCE" refId="50"/>    
+    <end type="TARGET" refId="17"/>  
+  </generalization>  
+  <realization id="54">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="31"/>  
+  </realization>  
+  <association id="55">    
+    <end type="SOURCE" refId="49" navigable="false">      
+      <attribute id="56" name="cachedIntrospectionResults"/>      
+      <multiplicity id="57" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="58">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="26"/>  
+  </realization>  
+  <generalization id="59">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <realization id="60">    
+    <bendpoint x="2887" y="1115"/>    
+    <bendpoint x="2887" y="1429"/>    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <realization id="61">    
+    <end type="SOURCE" refId="48"/>    
+    <end type="TARGET" refId="27"/>  
+  </realization>  
+  <realization id="62">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <generalization id="63">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="32"/>  
+  </generalization>  
+  <association id="64">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="65" name="sortUsed"/>      
+      <multiplicity id="66" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="67">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="68">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <nesting id="69">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </nesting>  
+  <association id="70">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="71" name="constructorArgumentValues"/>      
+      <multiplicity id="72" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="73">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="27"/>  
+  </realization>  
+  <generalization id="74">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <realization id="75">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="41"/>  
+  </realization>  
+  <generalization id="76">    
+    <bendpoint x="1971" y="1743"/>    
+    <end type="SOURCE" refId="43"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <association id="77">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="78" name="beanFactory"/>      
+      <multiplicity id="79" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="80">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="81" name="instance"/>      
+      <multiplicity id="82" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="83">    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="84" name="propertyValues"/>      
+      <multiplicity id="85" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="86">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="51"/>  
+  </generalization>  
+  <realization id="87">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="26"/>  
+  </realization>  
+  <association id="88">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="89" name="sortDefinition"/>      
+      <multiplicity id="90" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="91">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="29"/>  
+  </generalization>  
+  <nesting id="92">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="18"/>  
+  </nesting>  
+  <realization id="93">    
+    <bendpoint x="2722" y="1115"/>    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <generalization id="94">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="38"/>  
+  </generalization>  
+  <generalization id="95">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="32"/>  
+  </generalization>  
+  <generalization id="96">    
+    <bendpoint x="1827" y="1743"/>    
+    <end type="SOURCE" refId="43"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <realization id="97">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="45"/>  
+  </realization>  
+  <realization id="98">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="45"/>  
+  </realization>  
+  <realization id="99">    
+    <end type="SOURCE" refId="50"/>    
+    <end type="TARGET" refId="27"/>  
+  </realization>  
+  <association id="100">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="101" name="bootstrapFactory"/>      
+      <multiplicity id="102" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="103">    
+    <bendpoint x="2295" y="1743"/>    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="43"/>  
+  </realization>  
+  <realization id="104">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="40"/>  
+  </realization>  
+  <realization id="105">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <realization id="106">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="46"/>  
+  </realization>  
+  <association id="107">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="108" name="sort"/>      
+      <multiplicity id="109" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="110">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="45"/>  
+  </realization>  
+  <realization id="111">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="45"/>  
+  </realization>  
+  <realization id="112">    
+    <end type="SOURCE" refId="51"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="113">    
+    <end type="SOURCE" refId="42" navigable="false">      
+      <attribute id="114" name="sourceProvider"/>      
+      <multiplicity id="115" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="116">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="45"/>  
+  </realization>  
+  <realization id="117">    
+    <end type="SOURCE" refId="48"/>    
+    <end type="TARGET" refId="45"/>  
+  </realization>  
+  <realization id="118">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="27"/>  
+  </realization>  
+  <generalization id="119">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="120">    
+    <end type="SOURCE" refId="51"/>    
+    <end type="TARGET" refId="28"/>  
+  </generalization>  
+  <generalization id="121">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="38"/>  
+  </generalization>  
+  <association id="122">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="123" name="parentBeanFactory"/>      
+      <multiplicity id="124" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="125">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="40"/>  
+  </realization>  
+  <generalization id="126">    
+    <end type="SOURCE" refId="43"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <realization id="127">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="39"/>  
+  </realization>  
+  <association id="128">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="129" name="beanFactory"/>      
+      <multiplicity id="130" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="131">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="45"/>  
+  </realization>  
+  <association id="132">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="133" name="definition"/>      
+      <multiplicity id="134" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="135">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="27"/>  
+  </realization>  
+  <realization id="136">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="27"/>  
+  </realization>  
+  <realization id="137">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="36"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="false" package="false" protected="false" private="false" static="true"/>    
+    <operations public="true" package="false" protected="false" private="false" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
